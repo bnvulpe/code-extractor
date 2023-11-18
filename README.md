@@ -1,3 +1,3 @@
-# BackgroundRemoval
+# Code Extractor
 
-Upload an image and adjust the settings to remove the background for any image!
+Upload a photo or screenshot and copy the code to your script in seconds!

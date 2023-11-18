@@ -4,13 +4,13 @@ from PIL import Image
 from io import BytesIO
 import base64
 
-st.set_page_config(layout="wide", page_title="Image Background Remover")
+st.set_page_config(layout="wide", page_title="Image Code Extractor")
 
-st.write("## Remove background from your image")
+st.write("## Obtain your code in seconds!")
 st.write(
-    ":dog: Try uploading an image to watch the background magically removed. Full quality images can be downloaded from the sidebar. This code is open source and available [here](https://github.com/tyler-simons/BackgroundRemoval) on GitHub. Special thanks to the [rembg library](https://github.com/danielgatis/rembg) :grin:"
+    "Try uploading a photo or screenshot to watch the background magically removed. Full code can be copied onto your clipboard from the sidebar. This code is open source and available [here](https://github.com/bnvulpe/code-extractor) on GitHub."
 )
-st.sidebar.write("## Upload and download :gear:")
+st.sidebar.write("## Upload and copy to clipboard :gear:")
 
 MAX_FILE_SIZE = 5 * 1024 * 1024  # 5MB
 

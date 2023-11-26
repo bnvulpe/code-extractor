@@ -8,9 +8,9 @@ st.set_page_config(layout="wide", page_title="Image Code Extractor")
 
 st.write("## Obtain your code in seconds!")
 st.write(
-    "Try uploading a photo or screenshot to watch the background magically removed. Full code can be copied from the sidebar. This code is open source and available [here](https://github.com/bnvulpe/code-extractor) on GitHub."
+    "Try uploading a photo or screenshot to watch the code magically appear. Full code can be downloaded from the sidebar. This code is open source and available [here](https://github.com/bnvulpe/code-extractor) on GitHub."
 )
-st.sidebar.write("## Upload and copy to clipboard :gear:")
+st.sidebar.write("## Upload and dowload full code :gear:")
 
 MAX_FILE_SIZE = 5 * 1024 * 1024  # 5MB
 
@@ -28,10 +28,10 @@ def fix_image(upload):
     col1.image(image)
 
     fixed = remove(image)
-    col2.write("Fixed Image :wrench:")
+    col2.write("Obtained code :wrench:")
     col2.image(fixed)
     st.sidebar.markdown("\n")
-    st.sidebar.download_button("Download fixed image", convert_image(fixed), "fixed.png", "image/png")
+    st.sidebar.download_button("Download obtained code", convert_image(fixed), "fixed.png", "image/png")
 
 
 col1, col2 = st.columns(2)

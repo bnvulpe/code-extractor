@@ -69,4 +69,7 @@ if my_upload is not None:
     #else:
     fix_image(upload=my_upload)
 else:
+    code = '''def hello():
+    print("Hello, Streamlit!")'''
+    st.code(code, language='python')
     fix_image("./zebra.jpg")

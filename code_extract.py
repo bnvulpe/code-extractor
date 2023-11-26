@@ -11,7 +11,7 @@ st.write("## Obtain your code in seconds!")
 st.write(
     "Try uploading a photo or screenshot to watch the code magically appear. Full code can be downloaded from the sidebar. This code is open source and available [here](https://github.com/bnvulpe/code-extractor) on GitHub."
 )
-st.sidebar.write("## Upload and download full code :gear:")
+# st.sidebar.write("## Upload and download full code :gear:")
 
 # MAX_FILE_SIZE = 5 * 1024 * 1024  # 5MB
 

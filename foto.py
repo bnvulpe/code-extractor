@@ -39,6 +39,7 @@ def ocr(image, tesseract_path):
 
     kernel = np.ones((2,2),np.uint8)
     erosion = cv2.erode(dst,kernel,iterations = 2)
+    dst = cv2.dilate(erosion,kernel,iterations = 1)
 
     dst = cv2.copyMakeBorder(dst,top =  int(0.1 * dst.shape[0]) ,bottom = int(0.1 * dst.shape[0]), left = int(0.1 * dst.shape[1]), right = int(0.1 * dst.shape[1]), borderType = cv2.BORDER_CONSTANT, value = int(dst[0][0]))
 

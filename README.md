@@ -10,17 +10,17 @@ The application is fully compatible with 64-bit Windows operating systems, and i
 
 Below, we provide detailed steps for the installation and use of the program:
 - Obtaining the Application:
-   Download the latest version of the application from the official GitHub repository [code-extractor](https://github.com/bnvulpe/code-extractor)
+   Download the latest version of the application from the official GitHub repository [code-extractor](https://github.com/bnvulpe/code-extractor) .
 - File Decompression:
-   Unzip the .zip file to a location of your choice.
+   Unzip the `.zip` file to a location of your choice.
 - Environment Configuration:
-   1. Access the application directory.
-   2. Verify that Python is added to the system PATH for easy command execution.
+     1. Access the application directory.
+     2. Verify that Python is added to the system PATH for easy command execution.
 - Running the Application:
    1. Open a terminal window in the application directory.
    2. Install the requirements with the command `pip install -r requirements.txt`
    3. Run the program with the command `python main.py`
-   4. To close the program, use ctrl+c in the terminal.
+   4. To close the program, use `ctrl+c` in the terminal.
 
 Following these steps, the application will run smoothly in your local Windows environment, providing an intuitive and efficient user experience.
 
